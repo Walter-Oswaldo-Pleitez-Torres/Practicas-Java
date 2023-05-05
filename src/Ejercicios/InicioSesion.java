@@ -21,6 +21,7 @@ public class InicioSesion {
             }
             else{
                 System.out.println("ACCESO DENEGADO");
+                System.out.println("Le quedan "+(2-intentos)+" Intentos.");
             }
             
             System.out.println("****************************");
